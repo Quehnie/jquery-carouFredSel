@@ -1,5 +1,5 @@
 {
-  "name": "carouFredSel",
+  "name": "jquery-carouFredSel",
   "version": "6.2.1",
   "main": "jquery.carouFredSel-6.2.1.js",
   "description": "A circular, responsive carousel plugin built using the jQuery.",
