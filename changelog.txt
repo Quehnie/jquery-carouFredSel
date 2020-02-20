@@ -1,3 +1,6 @@
+version 6.2.2
+Fixed undefined variables because of ";" instead of ",".
+
 version 6.2.x
 Plugin is now capable of using CSS-transitions (instead of javascript animations) powered by the jQuery.transit-plugin.
 Optionally use the existing wrapper element a the carousel-wrapper.

@@ -475,9 +475,9 @@
 				tmrs.startTime = getTime();
 
 				//	timeout the scrolling
-				var dur1 = opts.auto.timeoutDuration + del;
-					dur2 = dur1 - tmrs.timePassed;
-					perc = 100 - Math.ceil(dur2 * 100 / dur1);
+				var dur1 = opts.auto.timeoutDuration + del,
+				    dur2 = dur1 - tmrs.timePassed,
+				    perc = 100 - Math.ceil(dur2 * 100 / dur1);
 
 				if (opts.auto.progress)
 				{
@@ -2527,8 +2527,8 @@
 
 		FN._unbind_buttons = function() {
 			var ns1 = cf_e('', conf),
-				ns2 = cf_e('', conf, false);
-				ns3 = cf_e('', conf, false, true, true);
+			    ns2 = cf_e('', conf, false),
+			    ns3 = cf_e('', conf, false, true, true);
 
 			$(document).unbind(ns3);
 			$(window).unbind(ns3);
